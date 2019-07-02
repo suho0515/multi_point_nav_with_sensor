@@ -20,5 +20,6 @@ remote pc visualize rviz only
 # How to use it
 1. Start a Navigation which should have a map
 2. Run the file. "python multi_point_nav_with_sensor.py"
-3. Turn on the Rviz
-4. Input the position using 2D Pose Estimation
+3. Run the "rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600" for Arduino
+4. Turn on the Rviz
+5. Input the position using 2D Pose Estimation
